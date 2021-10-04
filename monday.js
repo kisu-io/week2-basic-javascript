@@ -308,6 +308,8 @@ console.log(`The area of a circle given the radius ${radius}(m) is ${pi * radius
 // }
 // getLeapYears(2000, 2020);
 
+
+// Swapping value
 // function swappingValues(a,b) {
 //     var temp = 0;
 //     temp = a;
@@ -317,6 +319,8 @@ console.log(`The area of a circle given the radius ${radius}(m) is ${pi * radius
 // }
 // swappingValues(9,11);
 
+
+// Magic 8-ball
 // function play() {
 //     const randomNumber = Math.floor(Math.random() * 2);
 //     if (randomNumber === 0) {
