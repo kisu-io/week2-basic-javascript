@@ -35,7 +35,7 @@ function gcd(a, b) {
 //         break;
 //     }
 //     min++;
-//     }   
+//     }
 // }
 // lcm (10,20);
 
@@ -51,10 +51,10 @@ function gcd(a, b) {
 //           return false;
 //         }
 //       }
-//       return true;  
+//       return true;
 //     }
 //   }
-  
+
 //   console.log(prime(20));
 
 // 6. Capture Time
@@ -73,7 +73,7 @@ function getNum() {
   for (var i = 0; i < 5; i++){
       console.log(Math.random())
   }
-    
+
 }
 // getNum();
 
@@ -117,7 +117,7 @@ function nestedLoop(n) {
     string += " \n";
     }
 console.log(string)
-} 
+}
 // nestedLoop(5);
 
 function gridSize(n) {
@@ -136,7 +136,7 @@ for (let y = 0; y< n; y++) {
 var workingHours = [6, 6, 7, 7, 8, 8, 6, 7, 8, 7];
 function payDay(){
     for (var i = 0; i < workingHours.length; i++){
-        
+
         console.log(`Peter earned ${workingHours[i]*25} today!`);
     }
 }
@@ -148,7 +148,7 @@ function sum(){
         a += (workingHours[i])
     }
     console.log(a*25)
-} 
+}
 // sum(workingHours)
 
 
@@ -174,14 +174,13 @@ const sumOfMoney = (numOfWeek) => {
     const min = 6;
     let sum = 0;
     for(let i = 0; i < numOfWeek * 5; i++) {
-        let numOfHourPerDay = Math.floor(Math.random() * (max - min + 1) + min);
-        sum += numOfHourPerDay * 25; 
+    let numOfHourPerDay = Math.floor(Math.random() * (max - min + 1) + min);
+    sum += numOfHourPerDay * 25;
+}
+    console.log(sum);
     }
 
-    console.log(sum); 
-}
-
-sumOfMoney(3);
+    sumOfMoney(3);
 
 // Truthy/Flasy
 // const one = 1;
